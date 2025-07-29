@@ -7,7 +7,7 @@ import { Button } from "./button";
 import { Input } from "./input";
 import { Textarea } from "./textarea";
 
-const email = "gustavo.passarella@hotmail.com";
+const email = "daynedewar1@gmail.com";
 
 function Contact() {
 	const [loading, setLoading] = useState(false);
@@ -73,7 +73,7 @@ function Contact() {
 							or{" "}
 							<Link
 								className="hover:text-secondary transition-colors"
-								to={`https://www.linkedin.com/in/gustavo-passarella/`}
+								to={`https://www.linkedin.com/in/daynedewar/`}
 							>
 								<u>Linkedin</u>
 							</Link>

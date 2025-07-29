@@ -7,7 +7,7 @@ const navLinks = [
 	{ title: "About", link: "about", id: 0 },
 	{ title: "Skills", link: "skills", id: 1 },
 	{ title: "Projects", link: "projects", id: 2 },
-	// { title: "Experience", link: "exp", id: 3 },
+	{ title: "Experience", link: "exp", id: 3 },
 	{ title: "Contact", link: "contact", id: 4 },
 ];
 
@@ -33,7 +33,7 @@ const Navbar = () => {
 							duration={500}
 							className="cursor-pointer"
 						>
-							<span>GustavoPassarella</span>
+							<span>Dayne Dewar</span>
 						</ScrollLink>
 					</h2>
 				</div>

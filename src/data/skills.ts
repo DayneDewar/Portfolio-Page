@@ -1,6 +1,7 @@
 import backend from "../assets/images/backend1.png";
 import general from "../assets/images/general.png";
 import frontend from "../assets/images/react.png";
+import aws from "../assets/images/aws.png";
 
 export type SkillType = {
 	label: string;
@@ -13,13 +14,14 @@ export const skillsData: SkillType[] = [
 	{
 		label: "Front-end",
 		src: frontend,
-		alt: "Frontend skills atom icon",
+		alt: "React icon",
 		skills: [
 			"React",
+			"React Native",
 			"Redux",
+			"React Query",
 			"TypeScript",
 			"JavaScript",
-			"Tailwind CSS",
 			"HTML",
 			"CSS",
 			"SASS",
@@ -34,13 +36,11 @@ export const skillsData: SkillType[] = [
 		alt: "Backend skills gear icon",
 		skills: [
 			"JavaScript",
-			"NodeJS",
-			"ExpressJS",
-			"MongoDB",
-			"MySQL",
-			"GraphQL",
+			"Kotlin",
 			"Python",
-			"Django",
+			"SpringBoot",
+			"NodeJS",
+			"MongoDB",
 		],
 	},
 	{
@@ -51,10 +51,21 @@ export const skillsData: SkillType[] = [
 			"Object-Oriented Programming",
 			"Git",
 			"GitHub",
-			"Cisco Devices",
 			"Cryptography",
 			"Java",
 			"Network Protocols",
 		],
 	},
+	{
+		label: "Amazon Web Services",
+		src: aws,
+		alt: "Amazon Web Services",
+		skills: [
+			"Amazon S3",
+			"Athena",
+			"AWS Lambda",
+			"API Gateway",
+			"DynamoDB"
+		]
+	}
 ];

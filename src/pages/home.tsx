@@ -1,10 +1,9 @@
 import About from "../components/About";
 import Contact from "../components/Contact/Contact";
-import Footer from "../components/Footer/Footer";
+// import Footer from "../components/Footer/Footer";
 import Nav from "../components/Header/Navbar";
 import Hero from "../components/Hero";
 import Projects from "../components/Projects";
-import Qualification from "../components/Qualification";
 import Skills from "../components/Skills";
 
 function HomePage() {
@@ -19,15 +18,14 @@ function HomePage() {
 				<About />
 				<Skills />
 				<Projects />
-				<Qualification />
 				<Contact />
 			</main>
-
+{/* 
 			<footer className="bg-footer-bg w-full">
 				<hr className="w-full h-0.5 mx-auto mt-20 bg-neutral-200 border-0"></hr>
 
 				<Footer />
-			</footer>
+			</footer> */}
 		</>
 	);
 }

@@ -30,23 +30,16 @@ function Hero() {
 						className="heading text-4xl font-bold mt-6 md:mt-0 md:text-5xl 
 									md:whitespace-nowrap md:-ml-4"
 					>
-						Hi, I'm Gustavo!
+						Hi, I'm Dayne!
 					</h1>
 					<p className="font-semibold text-xl mt-4 mb-6 md:text-2xl">
 						<span className="">I'm a JavaScript Full-Stack Developer</span>
 					</p>
 					<p className="mt-4 mb-10 text-gray-300 md:text-lg">
-						React | Redux | TypeScript | Node | Express | NextJS
+						React | Redux | React Query | TypeScript | Node | NextJS
 						<br />
-						HTML | CSS | Sass | TailwindCSS | MySQL | MongoDB
+						HTML | CSS | Sass | MongoDB | AWS
 					</p>
-					{/* <a
-						target="_blank"
-						href={cv}
-						className="text-secondary-foreground font-semibold px-6 py-3 bg-teal-700 hover:bg-primary rounded-lg shadow transition"
-					>
-						Download CV
-					</a> */}
 					<ScrollLink
 						smooth={true}
 						offset={-100}
