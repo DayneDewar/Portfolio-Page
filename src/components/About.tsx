@@ -23,39 +23,36 @@ function About() {
 					</h2>
 					<p>
 						I'm a <span className="font-bold">Full-Stack Developer</span> from
-						Brazil and living in London for the past 12 years. I've always had a
-						passion for <span className="font-bold">technology</span> and a
-						desire to go beyond of what is possible. I am a{" "}
+						born and raised in New York. I've always had an interest in computers and a
+						desire to go beyond of what is possible. I am a 
 						<span className="font-bold">highly driven professional</span> with a
-						background in customer service, skilled in problem-solving,
+						background in hospitality, skilled in problem-solving,
 						teamwork, communication, and committed to continuous learning.
 					</p>
 					<br />
 					<p>
-						I have recently completed{" "}
+						I began my coding journey in 2015, when I decided to switch my major
+						from Criminal Justice to <span className="font-bold">Computer Science.</span>
+						I studied at New York City College of Technology for 2 years before realizing college
+						was not the proper path in life for myself at the time. A few years after trvaeling and
+						exploring the world, I decided to return to engineering roots by attending{" "}
 						<span className="font-bold hover:underline">
-							<a href="https://www.thejump.tech/" target="_blank">
-								The Jump Digital School's
+							<a href="https://flatironschool.com/" target="_blank">
+								Flatiron School's
 							</a>
 						</span>{" "}
-						12-week{" "}
-						<span className="font-bold">Full-Stack Software Engineer</span>{" "}
-						bootcamp programme, following a BCs(Hons) in{" "}
-						<span className="font-bold">
-							Computer Networking & Cyber Security
-						</span>{" "}
-						from London Metropolitan University. The bootcamp has enabled me to
-						develop and deploy full-stack websites and applications to industry
-						standards.
+						15-week{" "}
+						<span className="font-bold">Software Engineering bootcamp</span>{" "}
+						in Jan 2021.
+						The bootcamp has enabled me to develop and deploy full-stack websites
+						and applications to industry standards.
 					</p>
 					<br />
 
 					<p>
-						I am currently a Python, Web Design, SQL database, and Game
-						Development tutor at FunTech coding school. I'm now actively looking
-						for developer roles and{" "}
-						<span className="font-bold">open to new opportunities</span> in the
-						U.K, so feel free to{" "}
+						Since bootcamp, I have worked as a software engineer at several companies, 
+						most recently working for Deloitte as a <span className="font-bold">Full-stack tech consultant</span>{" "}
+						but I am now open for new oppurtunities, so feel free to{" "}
 						<ScrollLink
 							smooth={true}
 							offset={-100}

@@ -7,7 +7,7 @@ import { Button } from "./button";
 import { Input } from "./input";
 import { Textarea } from "./textarea";
 
-const email = "gustavo.passarella@hotmail.com";
+const email = "daynedewar1@gmail.com";
 
 function Contact() {
 	const [loading, setLoading] = useState(false);
@@ -17,7 +17,7 @@ function Contact() {
 		setLoading(true);
 		const formData = new FormData(event.target as HTMLFormElement);
 
-		formData.append("access_key", "bb4d7297-595d-4a43-bbe9-718d25d09d9d");
+		formData.append("access_key", "6f4964bb-c3ea-48cb-9a50-092ad44539ac");
 
 		try {
 			const response = await axios.post(
@@ -73,7 +73,7 @@ function Contact() {
 							or{" "}
 							<Link
 								className="hover:text-secondary transition-colors"
-								to={`https://www.linkedin.com/in/gustavo-passarella/`}
+								to={`https://www.linkedin.com/in/daynedewar/`}
 							>
 								<u>Linkedin</u>
 							</Link>
@@ -85,7 +85,7 @@ function Contact() {
 							<input
 								type="hidden"
 								name="subject"
-								value="New Submission From Contact Form. gustavopassarella.co.uk"
+								value="New Submission From Portfolio Page Contact Form"
 							></input>
 							<input type="checkbox" name="botcheck" className="hidden"></input>
 
